@@ -6,11 +6,11 @@
 
 - 对于“跨学院选修”以及“跨学科选修”，学校的选课平台不能直接进行搜索，在本项目导出的csv中可以直接搜索。
 
-  <img src="README.assets/image-20240713120552444.png" alt="image-20240713120552444" style="zoom:50%;" />
+  <img src="README.assets/image-20240713114611889.png" alt="image-20240713114611889" style="zoom:50%;" />
 
 - 可以记录一些超上限选课的课程，方便后续参考。
 
-  <img src="README.assets/image-20240713120606812.png" alt="image-20240713120606812" style="zoom:67%;" />
+  <img src="README.assets/image-20240713114805340.png" alt="image-20240713114805340" style="zoom:67%;" />
 
 - 可以记录一些课程开设的教室，如果后续需要蹭课的话有教室可以去。
 
@@ -51,7 +51,7 @@
    lesson_rows = course_table.find_all('tr', class_='electGridTr')
    ```
 
-   <img src="README.assets/image-20240713120622724.png" alt="image-20240713120622724" style="zoom: 50%;" />
+   <img src="README.assets/image-20240713115131057.png" alt="image-20240713115131057" style="zoom: 50%;" />
 
 4. 将提取的课程信息写入 CSV 文件。
 
